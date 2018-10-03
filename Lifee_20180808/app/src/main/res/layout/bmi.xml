@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="アプリ太郎" />
+
+            <Button
+                android:id="@+id/bmi_result"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="200dp"
+                android:text="結果入力"
+                android:textSize="10dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/flame_maru2"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#c0c0c0">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="検査日"
+                android:background="@drawable/flame_mar"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_margin="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="検査セット名"
+                android:background="@drawable/flame_mar"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:layout_margin="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="総合評価"
+                android:background="@drawable/flame_mar"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:layout_margin="5dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

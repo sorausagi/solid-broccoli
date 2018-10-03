@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/common_main" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/k_01"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:onClick="onClick"
+            android:layout_marginTop="70dp" />
+
+        <ImageView
+            android:id="@+id/life"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/life01" />
+
+        <TextView
+            android:id="@+id/years"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2018年\n02月19日"
+            android:layout_toRightOf="@+id/life"
+            android:layout_alignTop="@+id/life"
+            android:paddingLeft="40dp" />
+
+        <TextView
+            android:id="@+id/content01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/years"
+            android:layout_toRightOf="@+id/years"
+            android:text="生活習慣病(13項目)"
+            android:paddingLeft="30dp"/>
+
+        <TextView
+            android:id="@+id/k_02"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:onClick="onClick"
+            android:layout_marginTop="155dp"/>
+
+        <ImageView
+            android:id="@+id/life1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="155dp"
+            android:src="@drawable/life01" />
+
+        <TextView
+            android:id="@+id/years1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2018年\n02月26日"
+            android:layout_toRightOf="@+id/life1"
+            android:layout_alignTop="@+id/life1"
+            android:paddingLeft="40dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/years1"
+            android:layout_toRightOf="@+id/years1"
+            android:text="生活習慣病(13項目)"
+            android:paddingLeft="30dp"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

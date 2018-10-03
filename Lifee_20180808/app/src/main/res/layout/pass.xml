@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/p_s1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="パスワードをa変更します。\n現在のパスワードと、新しいパスワードを入力して下さい。\n新しいパスワードは、英数字混合で8桁以上にする必要があります。"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"/>
+        <EditText
+            android:id="@+id/p_l1"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:hint="現在のパスワード"
+            android:layout_below="@+id/p_s1"
+            android:layout_centerHorizontal="true"/>
+
+        <EditText
+            android:id="@+id/p_l2"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/p_l1"
+            android:layout_centerHorizontal="true"
+            android:hint="新しいパスワード"
+            android:singleLine="false" />
+
+        <EditText
+            android:id="@+id/p_l3"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:hint="新しいパスワード（確認用）"
+            android:layout_below="@+id/p_l2"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/flame_maru2"
+            android:text="登録"
+            android:textColor="#ffffff"
+            android:layout_margin="10dp"/>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

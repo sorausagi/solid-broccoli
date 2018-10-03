@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/me_s1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="検査日"
+            android:layout_margin="20dp"/>
+
+        <EditText
+            android:id="@+id/me_l1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" />
+
+        <TextView
+            android:id="@+id/me_s2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="身長"
+            android:layout_alignBottom="@+id/me_l2"
+            android:layout_alignStart="@+id/me_s1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/me_l2"
+            android:layout_alignLeft="@+id/me_l1"
+            android:text="(cm)" />
+
+        <EditText
+            android:id="@+id/me_l2"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/me_l1"
+            android:layout_alignRight="@+id/me_l1"/>
+
+        <TextView
+            android:id="@+id/me_s3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="体重"
+            android:layout_alignBottom="@+id/me_l3"
+            android:layout_alignStart="@+id/me_s2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/me_l3"
+            android:layout_alignLeft="@+id/me_l1"
+            android:text="(kg)" />
+
+        <EditText
+            android:id="@+id/me_l3"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/me_l2"
+            android:layout_alignRight="@+id/me_l2"/>
+
+        <TextView
+            android:id="@+id/me_s4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="性別"
+            android:layout_alignBottom="@+id/me_l4"
+            android:layout_alignStart="@+id/me_s3"/>
+
+
+        <EditText
+            android:id="@+id/me_l4"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/me_l3"
+            android:layout_alignRight="@+id/me_l3"/>
+
+        <Button
+            android:id="@+id/bmi_registration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/flame_maru2"
+            android:text="登録"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/me_l4"
+            android:layout_margin="10dp"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

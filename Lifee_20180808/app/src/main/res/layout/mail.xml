@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/m_s1"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:text="ご登録済みの連絡先メールアドレスを変更します。\n連絡先メールアドレスを入力してください。"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+    <EditText
+        android:id="@+id/m_l1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m_s1"
+        android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/m_s2"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="確認のため、もう一度メールアドレスを入力して下さい"
+            android:layout_below="@+id/m_l1"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/m_s2"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/flame_maru2"
+            android:text="登録"
+            android:textColor="#ffffff"
+            android:layout_margin="10dp"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

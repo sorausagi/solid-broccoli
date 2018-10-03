@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/t_s1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="次回起動時に表示"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"/>
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"/>
+
+        <View
+            android:layout_below="@+id/t_s1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"/>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
